@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestTask">
+  <test name="reportingTests">
+      <classes>
+          <class name="reportingTests.LeftMenuBarTest"/>
+          <class name="reportingTests.TimeFramesTest"/>
+          <class name="reportingTests.AuthorFilter"/>
+          <class name="reportingTests.SortingTest"/>
+      </classes>
+  </test>
+    <test name="ruHighloadTestsDataTracking">
+        <classes>
+            <class name="ruHighloadTests.DataTracking"/>
+        </classes>
+    </test>
+</suite>
